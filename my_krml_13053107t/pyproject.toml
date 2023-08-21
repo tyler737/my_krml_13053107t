@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "my-krml-13053107t"
+version = "0.1.0"
+description = ""
+authors = ["tyler737 <nyanpaing.htun-1@student.uts.edu.au>"]
+readme = "README.md"
+packages = [{include = "my_krml_13053107t"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
